@@ -15,12 +15,12 @@ class String
 end
 
 ##OR
-class String
+# class String
 
-  def count_sentences
-    self.scan(/(\.|\?|\!)(\s|\z)/).size
-  end
+#   def count_sentences
+#     self.scan(/(\.|\?|\!)(\s|\z)/).size
+#   end
 
-end
+# end
 
 # Try using your new String method by firing up irb or pry in your terminal and then loading your file by typing `load "2_count_sentences.rb"`.
