@@ -4,10 +4,8 @@
 
 class String
   def count_sentences
-    # You will need to use the keyword `self`, which refers to the string that this method is called on.
-    # In `"Hello!".count_sentences`, `self` would be equal to "Hello!".
-    # Your code goes here.
-
+    words = self.split(" ")
+    words.length
   end
 end
 
