@@ -4,8 +4,13 @@
 
 class String
   def count_sentences
-    words = self.split(" ")
-    words.length
+    # code goes here
+    count = self.scan(/!\s/).size + self.scan(/\?\s/).size + self.scan(/\.\s/).size
+    if self.include?(".") || self.include?("?") || self.include?("!")
+      count += 1 
+    else
+      count = 0
+    end
   end
 end
 
