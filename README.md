@@ -1,9 +1,4 @@
----
-  tags: object orientation, kids, ruby 
-  languages: ruby
-  level: 2
-  type: to do
----
+
 
 ## Counting Sentences
 
