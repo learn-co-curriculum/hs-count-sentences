@@ -23,3 +23,5 @@ Get all the tests to pass by completing the body of the `count_sentences` method
 in `count_sentences.rb`.
 
 Run the tests using the `learn` command from the root of the project.
+
+<a href='https://learn.co/lessons/hs-count-sentences' data-visibility='hidden'>View this lesson on Learn.co</a>
